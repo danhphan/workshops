@@ -1,8 +1,12 @@
-# workshops
-workshops
+## List of Workshops
 
-```
-conda create -n workshops python=3.9
-conda activate workshops
-pip install -r requirements.txt
-```
+### [2022 ECSS: An introduction to Probabilistic Programming in Python using PyMC](./2022-ECSS-Conference/)
+
+
+### [2023 PyMCon: An introduction to multi-output Gaussian processes using PyMC](./2023-PyMCon/)
+
+
+
+
+
+
