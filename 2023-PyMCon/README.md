@@ -1,3 +1,6 @@
-The Early Carreer and Student Statisticians (ECSS) Conference 2022
+## PyMCon Web Series 2023
 
-Topic: An introduction to Probabilistic Programming in Python using PyMC
+### Topic: An introduction to multi-output Gaussian processes using PyMC
+
+
+### Set up environment
