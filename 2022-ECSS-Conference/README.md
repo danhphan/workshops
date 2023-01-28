@@ -7,7 +7,7 @@
 ### Set up environment
 
 ```
-conda create -n workshops python=3.9
-conda activate workshops
+conda create -n ecss python=3.9
+conda activate ecss
 pip install -r requirements.txt
 ```
