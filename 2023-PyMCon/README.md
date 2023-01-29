@@ -11,14 +11,23 @@ This talk presents to audiences how to build multi-output Gaussian processes in 
 
 | Notebook | Content | Colab link |
 | --- | --- | --- |
-| [1. Intro to PyMC GP](./01_Intro_PyMC_GP.ipynb) | This notebook introduces the basic concept of Gaussian Process (GP) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danhphan/workshops/blob/main/2023-PyMCon/01_Intro_PyMC_GP.ipynb) |
+| [1. Intro to PyMC GP](./01_Intro_PyMC_GP.ipynb) | This notebook introduces the basic concept of Gaussian Process (GP) 
+- Bayesian linear regression
+- Gaussian Process Regression
+- GP Mean and Covariance Functions
+| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danhphan/workshops/blob/main/2023-PyMCon/01_Intro_PyMC_GP.ipynb) |
 | [2. Intro to PyMC MoGP](./02_Intro_PyMC_MOGP.ipynb) | This notebook demonstrates Multi-output Gaussian Process (MoGP) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danhphan/workshops/blob/main/2023-PyMCon/02_Intro_PyMC_MOGP.ipynb) |
 
 
 
-### Set up local environment
+### Run on a local environment
+
+
+**Set up the environment**
+
 ```
-git clone 
+git clone git@github.com:danhphan/workshops.git
+cd ./workshops/2023-PyMCon
 conda create --name pymcon -c conda-forge python=3.9
 conda activate pymcon
 conda install -c conda-forge mamba
@@ -27,5 +36,3 @@ pip install -r requirements.txt
 
 ```
 
-### Notebooks
-- Run on Google Colab
