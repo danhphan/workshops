@@ -6,11 +6,16 @@ Multi-output Gaussian processes have recently gained strong attention from resea
 
 This talk presents to audiences how to build multi-output Gaussian processes in PyMC. It first introduces the concept of Gaussian processes (GPs) and multi-output GPs and how they can address real problems in several domains. It then shows how to implement multi-output GPs models such as the intrinsic coregionalization model (ICM) and the linear model of coregionalization (LCM) in Python using PyMC with real-world datasets.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danhphan/workshops/blob/main/2023-PyMCon/01_Intro_PyMC_GP.ipynb)]
+### Run on Google Colab
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/weiji14/deepbedmap/]
 
-### Set up environment
+| Notebook | Content | Colab link |
+| --- | --- | --- |
+| [1. Intro to PyMC GP](./01_Intro_PyMC_GP.ipynb) | This notebooks introduce basic concept of Gaussian Process (GP) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danhphan/workshops/blob/main/2023-PyMCon/01_Intro_PyMC_GP.ipynb) |
+
+
+
+### Set up local environment
 ```
 git clone 
 conda create --name pymcon -c conda-forge python=3.9
