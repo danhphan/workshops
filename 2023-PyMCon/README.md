@@ -11,11 +11,7 @@ This talk presents to audiences how to build multi-output Gaussian processes in 
 
 | Notebook | Content | Colab link |
 | --- | --- | --- |
-| [1. Intro to PyMC GP](./01_Intro_PyMC_GP.ipynb) | This notebook introduces the basic concept of Gaussian Process (GP) 
-- Bayesian linear regression
-- Gaussian Process Regression
-- GP Mean and Covariance Functions
-| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danhphan/workshops/blob/main/2023-PyMCon/01_Intro_PyMC_GP.ipynb) |
+| [1. Intro to PyMC GP](./01_Intro_PyMC_GP.ipynb) | This notebook introduces the basic concept of Gaussian Process (GP) <ul><li>Bayesian linear regression</li><li>Gaussian Process Regression</li><li>GP Mean and Covariance Functions</li></ul> | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danhphan/workshops/blob/main/2023-PyMCon/01_Intro_PyMC_GP.ipynb) |
 | [2. Intro to PyMC MoGP](./02_Intro_PyMC_MOGP.ipynb) | This notebook demonstrates Multi-output Gaussian Process (MoGP) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danhphan/workshops/blob/main/2023-PyMCon/02_Intro_PyMC_MOGP.ipynb) |
 
 
