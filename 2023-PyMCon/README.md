@@ -12,8 +12,8 @@ This talk presents to audiences how to build multi-output Gaussian processes in 
 | Notebook | Content | Colab link |
 | --- | --- | --- |
 | [1. Intro to PyMC GP](./01_Intro_PyMC_GP.ipynb) | This notebook introduces the basic concept of Gaussian Process (GP) <ul><li>Bayesian linear regression</li><li>Gaussian Process Regression</li><li>GP Mean and Covariance Functions</li></ul> | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danhphan/workshops/blob/main/2023-PyMCon/01_Intro_PyMC_GP.ipynb) |
-| [2. Intro to PyMC MoGP](./02_Intro_PyMC_MOGP.ipynb) | This notebook demonstrates Multi-output Gaussian Process (MoGP) <ul><li>Why we need MoGP?</li><li>Intrinsic Coregionalization Model (ICM)</li><li>Linear Coregionalization Model (LCM)</li></ul> | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danhphan/workshops/blob/main/2023-PyMCon/02_Intro_PyMC_MOGP.ipynb) |
-
+| [2. Intro to multi-output GPs](./02_Intro_Multiouput_GPs.pdf) | This slide demonstrates Multi-output Gaussian Process (MoGP) <ul><li>Why we need MoGP?</li><li>Intrinsic Coregionalization Model (ICM)</li><li>Linear Coregionalization Model (LCM)</li></ul> | [![Open In Pdf](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danhphan/workshops/blob/main/2023-PyMCon/02_Intro_Multiouput_GPs.pdf) |
+| [3. PyMC MoGP example](./03_PyMC_MOGP_Example.ipynb) | This notebook demonstrates Multi-output Gaussian Process (MoGP) <ul><li>Why we need MoGP?</li><li>Intrinsic Coregionalization Model (ICM)</li><li>Linear Coregionalization Model (LCM)</li></ul> | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danhphan/workshops/blob/main/2023-PyMCon/03_PyMC_MOGP_Example.ipynb) |
 
 
 ### Run on a local environment
