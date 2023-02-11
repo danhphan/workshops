@@ -12,8 +12,17 @@ This talk presents to audiences how to build multi-output Gaussian processes in 
 | Notebooks/Slides | Content | Link |
 | --- | --- | --- |
 | [1. Intro to PyMC GP](./01_Intro_PyMC_GP.ipynb) | This notebook introduces the basic concept of Gaussian Process (GP) <ul><li>Bayesian linear regression</li><li>Gaussian Process Regression</li><li>GP Mean and Covariance Functions</li></ul> | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danhphan/workshops/blob/main/2023-PyMCon/01_Intro_PyMC_GP.ipynb) |
-| [2. Intro to multi-output GPs](./02_Intro_Multiouput_GPs.pdf) | This slides introduce Multi-output Gaussian Process (MoGP) <ul><li>Why we need MoGP?</li><li>Intrinsic Coregionalization Model (ICM)</li><li>Linear Coregionalization Model (LCM)</li></ul> | [![Open In Pdf](https://img.shields.io/badge/PDF-View%20pdf-brightgreen)](https://colab.research.google.com/github/danhphan/workshops/blob/main/2023-PyMCon/02_Intro_Multiouput_GPs.pdf) |
-| [3. PyMC MoGP example](./03_PyMC_MOGP_Example.ipynb) | This notebook demonstrates how to implement Multi-output Gaussian Process (MoGP) in PyMC | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danhphan/workshops/blob/main/2023-PyMCon/03_PyMC_MOGP_Example.ipynb) |
+| [2. Intro to multi-output GPs](./02_Intro_Multiouput_GPs.pdf) | This slides introduce Multi-output Gaussian Processes (MoGPs) <ul><li>Why we need MoGPs?</li><li>Intrinsic Coregionalization Model (ICM)</li><li>Linear Coregionalization Model (LCM)</li></ul> | [![Open In Pdf](https://img.shields.io/badge/PDF-View%20pdf-brightgreen)](./02_Intro_Multiouput_GPs.pdf) |
+| [3. PyMC MoGP example](./02_PyMC_MOGP_Example.ipynb) | This notebook demonstrates how to implement a Multi-output Gaussian Process (MoGP) in PyMC | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danhphan/workshops/blob/main/2023-PyMCon/02_PyMC_MOGP_Example.ipynb) |
+
+### Run on Google Colab
+Please create a new cell at the beginning of the notebooks and run these following commands to install the latest PyMC version and related packages
+
+```
+pip install pymc==5.0.2 # the latest pymc version
+pip install graphviz
+pip install watermark
+```
 
 
 ### Run on a local environment
@@ -27,7 +36,7 @@ cd ./workshops/2023-PyMCon
 conda create --name pymcon -c conda-forge python=3.9
 conda activate pymcon
 conda install -c conda-forge mamba
-mamba install -c conda-forge "pymc>=5.0.0" nutpie
+mamba install -c conda-forge "pymc>=5.0.0"
 pip install -r requirements.txt
 ```
 
