@@ -19,9 +19,10 @@ This talk presents to audiences how to build multi-output Gaussian processes in 
 Please create a new cell at the beginning of the notebooks and run these following commands to install the latest PyMC version and related packages
 
 ```
-pip install pymc==5.0.2 # the latest pymc version
-pip install graphviz
-pip install watermark
+!pip install pymc==5.0.2 # the latest pymc version
+!pip install graphviz
+!pip install matplotlib==3.6.3
+!pip install watermark
 ```
 
 
